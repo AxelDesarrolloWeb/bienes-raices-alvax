@@ -36,6 +36,13 @@ legend {
         display: flex;
         justify-content: space-between;
         align-items: center;
+
+        @include tablet {
+            &.botones {
+                max-width: 100%;
+            }
+             
+        }
     }
     input[type="radio"] {
         margin: 0;
